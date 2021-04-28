@@ -1,0 +1,16 @@
+if [ -z "$1" ]
+  exit
+fi
+
+basedir="$1"
+wdir="$1"
+while [ "$wdir" != '/' ] ; do
+  if [ -d "$wdir"/.mvn ] ; then
+    .mvnw $*
+    break
+  fi
+  if [ -d "$wdir"/gradle ] ; then
+    .gradlew $*
+    break
+  fi
+done
