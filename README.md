@@ -1,4 +1,4 @@
-![Logo](/resources/logo.png)
+![Logo](https://raw.githubusercontent.com/Palpunte-Union/Default/master/resources/icon.png)
 # README
  これはReadmeです
  ここに簡単な解説を入力
